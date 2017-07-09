@@ -3,8 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     position: relative;
+
     font-family: '微軟正黑體', 'Cabin', sans-serif;
     font-size: 20px;
+
     user-select: none;
 }
 
@@ -36,16 +38,19 @@ body {
 
 #asideLeft{
   left: 0;
+  
   background-color: rgba(255, 210, 143, 0.5);/* #FFD38F */
 }
 
 #asideRight{
   right: 0;
+
   background-color: rgba(254, 252, 134, 0.5);/* #FEFC87 */
 }
 
 #content{
   left: 20%;
+
   background-color: rgba(128, 255, 153, 0.5);/* #7DFF98; */
   width: 60%;
   height: 100%;
