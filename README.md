@@ -3,6 +3,6 @@
 ### Run APP
 
 ```
-npm run i
+npm i
 npm start
 ```
