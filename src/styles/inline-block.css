@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    font-family: '微軟正黑體', 'Cabin', sans-serif;
+    font-size: 20px;
+    user-select: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+div::after {
+    content: "";
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#header {
+    background-color: rgba(254, 134, 123, 0.5);/* #FE8579 */
+    height: 20%;
+    text-align: center;
+}
+
+#container {
+    height: 60%;
+    font-size: 0;
+}
+
+#container > div {
+    display: inline-block;
+}
+
+.aside {
+    width: 20%;
+    height: 100%;
+}
+
+#asideLeft {
+    background-color: rgba(255, 210, 143, 0.5);/* #FFD38F */
+    /*margin-right: -7px;*/
+    text-align: center;
+}
+
+#asideRight {
+    background-color: rgba(254, 252, 134, 0.5);/* #FEFC87 */
+    /*margin-left: -7px;*/
+    text-align: center;
+}
+
+#content {
+    background-color: rgba(128, 255, 153, 0.5);/* #7DFF98; */
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+
+#footer {
+    background-color: rgba(144, 243, 254, 0.5);/* #8FF3FE */
+    height: 20%;
+    text-align: center;
+}
